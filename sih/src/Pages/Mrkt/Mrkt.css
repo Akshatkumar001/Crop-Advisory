@@ -1,0 +1,51 @@
+.market-container {
+  max-width: 500px;
+  margin: auto;
+  padding: 16px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background: #fdfdfd;
+  border-radius: 12px;
+}
+
+.title {
+  color: white;
+  background: #2e7d32;
+  padding: 10px;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.dropdown {
+  width: 100%;
+  margin: 12px 0;
+  padding: 8px;
+  font-size: 16px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+.mandi-table {
+  margin-top: 10px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.table-header, .table-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding: 10px;
+}
+
+.table-header {
+  background: #f1f1f1;
+  font-weight: bold;
+}
+
+.table-row:nth-child(even) {
+  background: #fafafa;
+}
+
+.trend-title {
+  margin: 16px 0 8px 0;
+}

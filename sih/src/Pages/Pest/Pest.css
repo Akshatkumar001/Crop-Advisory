@@ -1,0 +1,122 @@
+.pest-container {
+  max-width: 600px;
+  margin: auto;
+  padding: 20px;
+}
+
+.upload-box {
+  border: 2px dashed #065f46;
+  border-radius: 12px;
+  padding: 20px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.icon-box {
+  border: 2px solid #065f46;
+  border-radius: 6px;
+  padding: 4px;
+  display: inline-block;
+  margin-bottom: 8px;
+}
+
+.upload-text {
+  font-size: 18px;
+  font-weight: 500;
+  color: #065f46;
+}
+
+.result-card {
+  margin-top: 20px;
+  border: 1px solid #e5e7eb;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.result-img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+}
+
+.result-content {
+  padding: 16px;
+}
+
+.result-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 12px;
+}
+
+.result-title {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.thumb-img {
+  width: 50px;
+  height: 50px;
+  border-radius: 6px;
+  object-fit: cover;
+}
+
+.pest-name {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.confidence {
+  display: flex;
+  align-items: center;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.treatment-tabs {
+  display: flex;
+  margin-bottom: 12px;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.tab {
+  flex: 1;
+  text-align: center;
+  padding: 10px;
+  font-weight: 500;
+  background: #f3f4f6;
+}
+
+.tab.active {
+  background: #065f46;
+  color: white;
+}
+
+.treatment-info {
+  font-size: 16px;
+}
+
+.treatment {
+  font-weight: bold;
+  margin-bottom: 4px;
+}
+
+.dosage {
+  color: #4b5563;
+}
+
+.ask-ai-btn {
+  margin-top: 16px;
+  background: #065f46;
+  color: white;
+  padding: 12px;
+  border-radius: 12px;
+  text-align: center;
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: 500;
+}

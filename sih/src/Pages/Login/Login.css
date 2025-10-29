@@ -1,0 +1,209 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+#Lbdy {
+  height: 100vh;
+  width: 100vw;
+  display: grid;
+  justify-items: center;
+  align-content: center;
+}
+#google_translate_element{
+  justify-items: center;
+}
+#image {
+  height: 100vh;
+  width: 100vw;
+  background-color: black;
+}
+#image1 {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+#Lcnt {
+  position: absolute;
+  height: 100%;
+  width: 90%;
+  display: grid;
+  grid-template-rows: 40% 60%;
+}
+#Lcnt1 {
+  display: grid;
+  place-items: center;
+  font-size: 2vh;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+  padding: 1rem;
+}
+#Lcnt2 {
+  display: grid;
+  place-items: center;
+}
+#Lbox {
+  width: 100%;
+  max-width: 500px;
+  height: auto;
+  background-color: #fff;
+  box-shadow: 0 0 20px 0 black;
+  border-radius: 20px;
+  padding: 2vh 2vw;
+  display: grid;
+  gap: 1rem;
+}
+.lb {
+  width: 100%;
+}
+#Lb1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+}
+#Lb11 {
+  flex: 1;
+  min-width: 100px;
+  height: 7vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px 0 0 10px;
+  border: 2px solid rgb(197, 176, 176);
+  border-right: none;
+}
+#flg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 40%;
+}
+#flag {
+  height: 4vh;
+  max-width: 100%;
+}
+#num {
+  display: grid;
+  place-items: center;
+  height: 100%;
+  width: 60%;
+}
+#lb12 {
+  flex: 3;
+  height: 7vh;
+  border-radius: 0 10px 10px 0;
+  border: 2px solid rgb(197, 176, 176);
+  font-size: 2.5vh;
+  font-weight: 550;
+  text-align: center;
+}
+#Lb2 {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+#otp {
+  height: 7vh;
+  flex: 1;
+  min-width: 140px;
+  border: 2px solid rgb(197, 176, 176);
+  display: grid;
+  place-items: center;
+  border-radius: 10px;
+  font-size: 2.5vh;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#otp h3 {
+  font-weight: 600;
+}
+#otpN {
+  flex: 1;
+  min-width: 140px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#otpN input {
+  height: 7vh;
+  width: 100%;
+  border-radius: 10px;
+  font-size: 2.5vh;
+  font-weight: 550;
+  text-align: center;
+  border: 2px solid rgb(197, 176, 176);
+}
+#Lb3,
+#Lb4,
+#Lb5 {
+  display: grid;
+  place-items: center;
+}
+#lang {
+  height: 8vh;
+  width: 40%;
+  border-radius: 10px;
+  border: 2px solid rgb(197, 176, 176);
+}
+#btn {
+  width: 100%;
+}
+#btn button {
+  height: 7vh;
+  width: 100%;
+  border: 2px solid rgb(28, 78, 28);
+  border-radius: 10px;
+  background-color: rgb(28, 78, 28);
+  font-size: 3vh;
+  color: #faeded;
+  font-weight: 600;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#guest {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+#guest button {
+  height: 5vh;
+  width: 100%;
+  font-size: 2vh;
+  font-weight: 600;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #fff;
+  border: none;
+}
+@media (max-width: 768px) {
+  #Lcnt1 {
+    font-size: 2.5vh;
+  }
+  #lb12 {
+    font-size: 2vh;
+  }
+  #otp,
+  #otpN input {
+    font-size: 2vh;
+  }
+  #btn button {
+    font-size: 2.5vh;
+  }
+}
+@media (max-width: 480px) {
+  #Lbox {
+    padding: 1rem;
+  }
+  #Lb11,
+  #lb12 {
+    font-size: 1.8vh;
+  }
+  #otp,
+  #otpN input {
+    font-size: 1.8vh;
+  }
+  #btn button {
+    font-size: 2vh;
+  }
+}
